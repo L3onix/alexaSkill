@@ -35,13 +35,24 @@ def start_skill():
 
 @ask.intent('AgeIntent', convert={'age': int})
 def say_age(age):
+    frases_duvida = ["Poderia repetir sua idade?",
+                    "Qual é mesmo sua idade?"]
+
+    frases_solicitar_idade = [  "Poderia me contar sua idade?",
+                                "Qual é sua idade?",
+                                "Quantos anos você tem?"]
+    
+    frases_resposta = [ "Você possui {} anos.",
+                        "Você tem {} anos.",
+                        "Você possui apenas {} primaveras"]
+
     if 'age' in convert_errors:
-        return question("Poderia repetir sua idade?")
+        return question(random.choice(frases_duvida))
     
     if age is None:
-        return question("Poderia me contar sua idade?")
+        return question(random.choice(frases_solicitar_idade))
 
-    return statement("Você possui {} anos.".format(age))
+    return statement(random.choice(frases_resposta).format(age))
 
 
 @ask.intent("iProtocoloIntent")
