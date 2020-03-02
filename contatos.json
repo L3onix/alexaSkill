@@ -1,1 +1,232 @@
-'{"schema":{"fields":[{"name":"index","type":"integer"},{"name":0,"type":"string"}],"primaryKey":["index"],"pandas_version":"0.20.0"},"data":[{"index":0,"0":[{"0":"REITORIA","1":"REITORIA","2":"REITORIA","3":"REITORIA","4":"REITORIA"},{"0":"Reitor","1":"Augusto Rezende","2":"Augusto Rezende","3":"(63) 3218","4":"2939\\/2940"},{"0":"Vice-Reitora","1":"Darlene Castro","2":"Darlene Castro","3":"(63) 3218","4":"2939\\/2940"},{"0":"Chefia de Gabinete","1":"Rafael Verli","2":"Rafael Verli","3":"(63) 3218","4":"2939\\/2940"},{"0":"Coord. De \\u00d3rg\\u00e3os Colegiados Superiores","1":"Neila Oliveira","2":"Neila Oliveira","3":"(63) 3218","4":"2942"},{"0":"Secretaria da Reitoria","1":"Priscila Cardoso  Ana Carolina B. Pedreira","2":"Priscila Cardoso  Ana Carolina B. Pedreira","3":"(63) 3218","4":"2939\\/2940"},{"0":"ASSESSORIA DE COMUNICA\\u00c7\\u00c3O","1":"ASSESSORIA DE COMUNICA\\u00c7\\u00c3O","2":"ASSESSORIA DE COMUNICA\\u00c7\\u00c3O","3":"ASSESSORIA DE COMUNICA\\u00c7\\u00c3O","4":"ASSESSORIA DE COMUNICA\\u00c7\\u00c3O"},{"0":"Coordena\\u00e7\\u00e3o ASCOM","1":"Charlyne Sueste","2":"Charlyne Sueste","3":"(63) 3218","4":"2265"},{"0":"Equipe de Jornalismo, Fotografia e Cria\\u00e7\\u00e3o","1":"Equipe de Jornalismo, Fotografia e Cria\\u00e7\\u00e3o","2":"Equipe de Jornalismo, Fotografia e Cria\\u00e7\\u00e3o","3":"(63) 3218","4":"2947\\/2265"},{"0":"DIRETORIA JUR\\u00cdDICA","1":"DIRETORIA JUR\\u00cdDICA","2":"DIRETORIA JUR\\u00cdDICA","3":"DIRETORIA JUR\\u00cdDICA","4":"DIRETORIA JUR\\u00cdDICA"},{"0":"Diretor Jur\\u00eddico","1":"Naur Vittorazzi","2":"Naur Vittorazzi","3":"(63) 3218","4":"2944"},{"0":"Recep\\u00e7\\u00e3o","1":"Recep\\u00e7\\u00e3o","2":"Recep\\u00e7\\u00e3o","3":"(63) 3218","4":"2945"},{"0":"Assessores Jur\\u00eddicos","1":"Assessores Jur\\u00eddicos","2":"Assessores Jur\\u00eddicos","3":"(63) 3218","4":"2978"},{"0":"DIRETORIA DE TECNOLOGIA DA INFORMA\\u00c7\\u00c3O (DTI)","1":"DIRETORIA DE TECNOLOGIA DA INFORMA\\u00c7\\u00c3O (DTI)","2":"DIRETORIA DE TECNOLOGIA DA INFORMA\\u00c7\\u00c3O (DTI)","3":"DIRETORIA DE TECNOLOGIA DA INFORMA\\u00c7\\u00c3O (DTI)","4":"DIRETORIA DE TECNOLOGIA DA INFORMA\\u00c7\\u00c3O (DTI)"},{"0":"Diretor DTI","1":"Diretor DTI","2":"Maur\\u00edcio da Silva Pereira","3":"(63) 3218","4":"4918"},{"0":"Coord. de Manuten\\u00e7\\u00e3o e Suporte de Sistemas de Informa\\u00e7\\u00e3o","1":"Coord. de Manuten\\u00e7\\u00e3o e Suporte de Sistemas de Informa\\u00e7\\u00e3o","2":"Rog\\u00e9rio Lopes Ferreira","3":"(63) 3218","4":"2959"},{"0":"Coord. Redes e Seguran\\u00e7a da Informa\\u00e7\\u00e3o","1":"Coord. Redes e Seguran\\u00e7a da Informa\\u00e7\\u00e3o","2":"Carlos Soares Noleto","3":"(63) 3218","4":"4933"},{"0":"Coord. De Desenvolvimento e Inova\\u00e7\\u00e3o Tecnol\\u00f3gica","1":"Coord. De Desenvolvimento e Inova\\u00e7\\u00e3o Tecnol\\u00f3gica","2":"Yzaac Gon\\u00e7alves da Silva","3":"(63) 3218","4":"4931"},{"0":"N\\u00daCLEO DE INOVA\\u00c7\\u00c3O TECNOL\\u00d3GICA (NIT)","1":"N\\u00daCLEO DE INOVA\\u00c7\\u00c3O TECNOL\\u00d3GICA (NIT)","2":"N\\u00daCLEO DE INOVA\\u00c7\\u00c3O TECNOL\\u00d3GICA (NIT)","3":"N\\u00daCLEO DE INOVA\\u00c7\\u00c3O TECNOL\\u00d3GICA (NIT)","4":"N\\u00daCLEO DE INOVA\\u00c7\\u00c3O TECNOL\\u00d3GICA (NIT)"},{"0":"Dire\\u00e7\\u00e3o do NIT","1":"Dire\\u00e7\\u00e3o do NIT","2":"SILVANO MALFATTI","3":"(63) 3218","4":"2955"},{"0":"Coordena\\u00e7\\u00e3o de Difus\\u00e3o Tecnol\\u00f3gica","1":"Coordena\\u00e7\\u00e3o de Difus\\u00e3o Tecnol\\u00f3gica","2":"Arthur Prudente Junqueira","3":"(63) 3218","4":"2955"},{"0":"Coord. de\\u00a0Incubadoras e Parcerias","1":"Coord. de\\u00a0Incubadoras e Parcerias","2":"N\\u00e9lio Noleto Ribeiro","3":"(63) 3218","4":"2955"},{"0":null,"1":null,"2":null,"3":null,"4":null},{"0":"DIRETORIA DE DESENVOLVIMENTO E PESQUISA INSTITUCIONAL","1":"Arlenes Delabary Spada","2":"Arlenes Delabary Spada","3":"(63) 3218","4":"4909"},{"0":"DIRETORIA DE PLANEJAMENTO E A\\u00c7\\u00d5ES ESTRAT\\u00c9GICAS","1":"Vin\\u00edcius Augusto","2":"Vin\\u00edcius Augusto","3":"(63) 3218","4":"2996"},{"0":"COORD. DE CONTROLE INTERNO","1":"COORD. DE CONTROLE INTERNO","2":"Ma\\u00edsa Gomes da Costa","3":"(63) 3218","4":"2961"},{"0":"COORD. DE PUBLICA\\u00c7\\u00d5ES E EDI\\u00c7\\u00d5ES","1":"COORD. DE PUBLICA\\u00c7\\u00d5ES E EDI\\u00c7\\u00d5ES","2":"Liliane Scarpin da S. Storniolo","3":"(63) 3218","4":"4911"},{"0":"COMISS\\u00c3O PR\\u00d3PRIA DE AVALIA\\u00c7\\u00c3O (CPA)","1":"Thiago de L\\u00e1zari","2":"Thiago de L\\u00e1zari","3":"(63) 3218","4":"4909"},{"0":"OUVIDORIA GERAL","1":"Hosana Melo","2":"Hosana Melo","3":"(63) 3218","4":"2941"},{"0":null,"1":null,"2":null,"3":null,"4":null}]},{"index":1,"0":[{"0":"PR\\u00d3-REITORIA DE GRADUA\\u00c7\\u00c3O","1":"PR\\u00d3-REITORIA DE GRADUA\\u00c7\\u00c3O","2":"PR\\u00d3-REITORIA DE GRADUA\\u00c7\\u00c3O","3":"PR\\u00d3-REITORIA DE GRADUA\\u00c7\\u00c3O"},{"0":"Pr\\u00f3-Reitoria","1":"Fred Newton da Silva Souza","2":"(63) 3218","3":"4916"},{"0":"Secretaria da Pr\\u00f3-Reitoria","1":"Genice Gon\\u00e7alves Lima","2":"(63) 3218","3":"4916\\/4936"},{"0":"DIRETORA DE ADM. ACAD\\u00caMICA","1":"Leomara Maur\\u00edcio Lustosa","2":"(63) 3218","3":"2972"},{"0":"Coord. Geral de Secretaria Acad\\u00eamica","1":"Claudemir Fernandes dos Santos","2":"(63) 3218","3":"4920"},{"0":"Coord. Geral da Biblioteca","1":"Daniela Cursino Obelar","2":"(63) 3218","3":"2938"},{"0":"DIRETORIA DE ENSINO","1":"Elizabeth Maria Lopes Tol\\u00eado","2":"(63) 3218","3":"4002"},{"0":"Coord. de Forma\\u00e7\\u00e3o Continuada","1":"Luzinete Moreira de Almeida","2":"(63) 3218","3":"--"},{"0":"Coord. Acad\\u00eamica Geral","1":"Caio Monteiro Melo","2":"(63) 3218","3":"--"},{"0":"C\\u00c2MPUS PALMAS","1":"C\\u00c2MPUS PALMAS","2":"C\\u00c2MPUS PALMAS","3":"C\\u00c2MPUS PALMAS"},{"0":"Dire\\u00e7\\u00e3o","1":"Paulo Henrique Ulisses Borges","2":"(63) 3218","3":"2984"},{"0":"Assessoria da Dire\\u00e7\\u00e3o de C\\u00e2mpus","1":"Ta\\u00eds Bogo","2":"(63) 3218","3":"2943"},{"0":"Supervis\\u00e3o Administrativa","1":"Murillo Tavares C. de Oliveira","2":"(63) 3218","3":"2943"},{"0":"Assessoria Pedag\\u00f3gica","1":"Deodete M\\u00aa das Neves Schmitt","2":"(63) 3218","3":"2263"},{"0":"Supervis\\u00e3o de Secretaria Acad\\u00eamica","1":"Dalva Ferreira Reis Milhomem","2":"(63) 3218","3":"2998"},{"0":"Coordena\\u00e7\\u00e3o - Direito","1":"Paulo Beli Moura S. J\\u00fanior","2":"(63) 3218","3":"2920"},{"0":"Coordena\\u00e7\\u00e3o - Sistemas de Informa\\u00e7\\u00e3o","1":"Marco Ant\\u00f4nio Firmino","2":"(63) 3218","3":"4919"},{"0":"Coordena\\u00e7\\u00e3o - Engenharia Agron\\u00f4mica","1":"Arison jos\\u00e9 Pereira","2":"(63) 3218","3":"4926"},{"0":"Coordena\\u00e7\\u00e3o - Servi\\u00e7o Social","1":"Giovanni Bezerra do Nascimento","2":"(63) 3218","3":"4914"},{"0":"Biblioteca \\u2013 Campus Palmas","1":"Cacilda Martins Madureira","2":"(63) 3218","3":"2938"},{"0":"Supervis\\u00e3o de Tecnologia da Informa\\u00e7\\u00e3o","1":"Marcos Vin\\u00edcius P. Brito","2":"(63) 3218","3":"2979"},{"0":"NAPE (Apoio Psicossocial e Educacional)","1":"Ulisses Franklin C. de Cunha","2":"(63) 3218","3":"2904"},{"0":"C\\u00c2MPUS ARAGUATINS","1":"C\\u00c2MPUS ARAGUATINS","2":"(63) 3474","3":"2238"},{"0":"CAMPUS AUGUSTIN\\u00d3POLIS","1":"CAMPUS AUGUSTIN\\u00d3POLIS","2":"(63) 3456","3":"1811 \\/ 1698"},{"0":"CAMPUS DIAN\\u00d3POLIS","1":"CAMPUS DIAN\\u00d3POLIS","2":"(63) 3692","3":"1162 \\/ 2456"}]},{"index":2,"0":[{"0":"PR\\u00d3-REITORIA DE PESQUISA E P\\u00d3S-GRADUA\\u00c7\\u00c3O","1":"PR\\u00d3-REITORIA DE PESQUISA E P\\u00d3S-GRADUA\\u00c7\\u00c3O","2":"PR\\u00d3-REITORIA DE PESQUISA E P\\u00d3S-GRADUA\\u00c7\\u00c3O","3":"PR\\u00d3-REITORIA DE PESQUISA E P\\u00d3S-GRADUA\\u00c7\\u00c3O"},{"0":"Pr\\u00f3-Reitoria","1":"Ana Fl\\u00e1via Gouveia de Faria","2":"(63) 3218","3":"4929"},{"0":"Secretaria da Pr\\u00f3-Reitoria","1":"Talita Ferreira de Freitas","2":"(63) 3218","3":"4929"},{"0":"Diretoria de Pesquisa","1":"Luciana dos Santos D. Oliveira","2":"(63) 3218","3":"2931"},{"0":"Assessoria \\/ Secretaria","1":"Adriana de Souza Reis","2":"(63) 3218","3":"2932"},{"0":"Coordena\\u00e7\\u00e3o Programa Institucional e Bolsas de Inicia\\u00e7\\u00e3o Cient\\u00edfica (PIBIC)","1":"Leda Veronica Benevides D. Silva","2":"(63) 3218","3":"2983"},{"0":"Comit\\u00ea de \\u00c9tica em Pesquisa com Seres Humanos (CEP)","1":"Giovanni Bezerra do Nascimento","2":"(63) 3218","3":"2929"},{"0":"Comit\\u00ea de \\u00c9tica no uso de animais (CEUA)","1":"Rubens Honda","2":"(63) 3218","3":"--"},{"0":"N\\u00facleo Tocantinense de Arqueologia (NUTA)","1":"Ant\\u00f4nia Cust\\u00f3dia Pedreira","2":"(63) 3363  Porto Nacional","3":"1265"},{"0":"N\\u00facleo de Zoologia e Taxidermia (NZT)","1":"Marcus Vin\\u00edcius Moreira","2":"(63) 3363  Porto Nacional","3":"1505"},{"0":"N\\u00facleo de Desenvolvimento e Avalia\\u00e7\\u00e3o do Desempenho Ambiental (NUDAM)","1":"Juliana Mariano Alvez","2":"(63) 3218","3":"--"},{"0":"N\\u00facleo Estadual de Meteorologia e Recursos H\\u00eddricos (NEMET\\/RH)","1":"Jos\\u00e9 Luiz Cabral S. J\\u00fanior","2":"(63) 3218","3":"2930"},{"0":"Diretoria de Pesquisa Agropecu\\u00e1ria","1":"Expedito A. Cardoso","2":"(63) 3218","3":"2900"},{"0":"Secretaria CCA","1":"Daniel Aranha S. Silva","2":"(63) 3218","3":"2900"},{"0":"Coordena\\u00e7\\u00e3o de Pesquisa Agropecu\\u00e1ria","1":"Eduardo Ribeiro dos Santos","2":"(63) 3218","3":"2909"},{"0":"Coordena\\u00e7\\u00e3o de Transfer\\u00eancia de Tecnologias e Neg\\u00f3cios Tecnol\\u00f3gicos","1":"Marjory Carvalho Mour\\u00e3o","2":"(63) 3218","3":"2903"},{"0":"Coordena\\u00e7\\u00e3o de Esta\\u00e7\\u00e3o Experimental - Palmas","1":"Anat\\u00e1lio P. Batista","2":"(63) 3218","3":"--"},{"0":"Coordena\\u00e7\\u00e3o de Esta\\u00e7\\u00e3o Experimental - Formoso do Araguaia","1":"Joacy Pires da Costa","2":"(63) 3218","3":"--"},{"0":"Diretoria de P\\u00f3s-Gradua\\u00e7\\u00e3o","1":"Aline Ferreira de Quadros","2":"(63) 3218","3":"4949"},{"0":"Secretaria Acad\\u00eamica de P\\u00f3s-Gradua\\u00e7\\u00e3o","1":"Ana Fl\\u00e1via Matos","2":"(63) 3218","3":"2936"},{"0":"Coordena\\u00e7\\u00e3o de apoio \\u00e0 P\\u00f3s-Gradua\\u00e7\\u00e3o","1":"Denise Fras\\u00e3o","2":"(63) 3218","3":"4949"}]},{"index":3,"0":[{"0":"PR\\u00d3-REITORIA DE EXTENS\\u00c3O","1":"PR\\u00d3-REITORIA DE EXTENS\\u00c3O","2":"PR\\u00d3-REITORIA DE EXTENS\\u00c3O","3":"PR\\u00d3-REITORIA DE EXTENS\\u00c3O"},{"0":"Pr\\u00f3-Reitoria","1":"Kyldes Batista Vicente","2":"(63) 3218","3":"4912"},{"0":"DIRETORIA DE EXTENS\\u00c3O","1":"Alessandra Ruita S. Czapski","2":"(63) 3218","3":"2987"},{"0":"Coord. de Assuntos Estudantis e Esportes","1":"Ana M\\u00e1rcia Pereira Gurski","2":"(63) 3218","3":"2901"},{"0":"Coord. de Programas e Projetos Culturais","1":"Marinalva do R\\u00eago Barros","2":"(63) 3218","3":"2910"},{"0":"Coord. e Extens\\u00e3o e Desenv. Social","1":"Mylena Costa Jacund\\u00e1","2":"(63) 3218","3":"2987"},{"0":"N\\u00facleo de Estudos em Direitos Humanos","1":"Leila Amaral","2":"(63) 3218","3":"2901"},{"0":"C\\u00e2mara de Extens\\u00e3o","1":"Mylena Costa Jacund\\u00e1","2":"(63) 3218","3":"2987"},{"0":"Escola de L\\u00ednguas","1":"Mariany Almeida Montino","2":"(63) 3218","3":"4921"},{"0":"Apoio e Assessoramento de Extens\\u00e3o","1":"Caio Ara\\u00fajo  Mirian Dorneles dos Santos","2":"(63) 3218","3":"2935\\/2937"},{"0":"Curadoria do Museu Tocantinense de Arqueologia (Porto Nacional)","1":"Ant\\u00f4nia Cust\\u00f3dia Pedreira","2":"(63) 3363  Porto Nacional","3":"1265"},{"0":"Curadoria do Museu de Zoologia e Taxidermia Jos\\u00e9 Hidasi (Porto Nacional)","1":"Marcus Vin\\u00edcius Moreira","2":"(63) 3363  Porto Nacional","3":"1505"},{"0":"DIRETORIA DE TV E R\\u00c1DIO","1":"Carlos Roberto Almeida  (Kak\\u00e1 Lucena)","2":"(63) 3218","3":"4910"},{"0":"Coord. de Equipamentos e Manuten\\u00e7\\u00e3o","1":"M\\u00facio Medeiros Barbosa","2":"(63) 3218","3":"2954"},{"0":"Coord. de Produ\\u00e7\\u00e3o e Jornalismo","1":"Rosiane Maria Jer\\u00f4nimo","2":"(63) 3218","3":"4932"},{"0":"Coordenadoria de R\\u00e1dio","1":"Carlla Morena Barros P. Kran","2":"(63) 3218","3":"4954"},{"0":"Coordenadoria de TV","1":"Jos\\u00e9 Augusto do Nascimento","2":"(63) 3218","3":"4932"}]},{"index":4,"0":[{"0":"PR\\u00d3-REITORIA DE ADMINISTRA\\u00c7\\u00c3O E FINAN\\u00c7AS","1":"PR\\u00d3-REITORIA DE ADMINISTRA\\u00c7\\u00c3O E FINAN\\u00c7AS","2":"PR\\u00d3-REITORIA DE ADMINISTRA\\u00c7\\u00c3O E FINAN\\u00c7AS","3":"PR\\u00d3-REITORIA DE ADMINISTRA\\u00c7\\u00c3O E FINAN\\u00c7AS"},{"0":"Pr\\u00f3-Reitoria","1":"Daniel Bardal","2":"(63) 3218","3":"4939"},{"0":"Secretaria da Pr\\u00f3-Reitoria","1":"Carla Marzovilla","2":"(63) 3218","3":"4939"},{"0":"DIRETORIA ADMINISTRATIVA","1":"Ricardo de Oliveira Carvalho","2":"(63) 3218","3":"4938"},{"0":"Coordena\\u00e7\\u00e3o Compras","1":"Marcos Rodrigues Carneiro","2":"(63) 3218","3":"4930\\/2981"},{"0":"Coordena\\u00e7\\u00e3o de Gest\\u00e3o de Contratos","1":"Pedro Henrique Queiroz Rocha","2":"(63) 3218","3":"2989"},{"0":"Coord.Patrim\\u00f4nio e Almoxarifado Central","1":"Owederson Ricardo de O. Alves","2":"(63) 3218","3":"4904"},{"0":"Coordena\\u00e7\\u00e3o Protocolo e Expedi\\u00e7\\u00e3o","1":"Ricardo Alves Gouveia","2":"(63) 3218","3":"2999 \\/4924"},{"0":"Coordena\\u00e7\\u00e3o de Licita\\u00e7\\u00e3o","1":"Alan Wortmann","2":"(63) 3218","3":"2995"},{"0":"Coord. Manuten\\u00e7\\u00e3o e Servi\\u00e7os e Transporte","1":"Francisco da Silva Monteiro","2":"(63) 3218","3":"2990"},{"0":"Agendamento Audit\\u00f3rio e Sala de reuni\\u00f5es","1":"Carla Marzovilla","2":"(63) 3218","3":"4939"},{"0":"Copa (Sede Adm)","1":"--","2":"(63) 3218","3":"2912"},{"0":"Portaria (Sede Adm)","1":"--","2":"(63) 3218","3":"2992"},{"0":"DIRETORIA FINANCEIRA","1":"Fabiano Cottiga Magro","2":"(63) 3218","3":"2962"},{"0":"Coordena\\u00e7\\u00e3o de Gest\\u00e3o de Conv\\u00eanios","1":"Luiz Gonzaga Pires Santana","2":"(63) 3218","3":"4925"},{"0":"Coordena\\u00e7\\u00e3o de Cont\\u00e1bil","1":"Germano Oliveira Vieira","2":"(63) 3218","3":"2964"},{"0":"Coordena\\u00e7\\u00e3o de Execu\\u00e7\\u00e3o Financeira","1":"Jakeline Pereira da Silva","2":"(63) 3218","3":"4903"},{"0":"DIRETORIA DE GEST\\u00c3O E DESENVOLVIMENTO DE PESSOAS","1":"M\\u00aa L\\u00facia Guida","2":"(63) 3218","3":"2965"},{"0":"Arquivo DGDP","1":"Jos\\u00ea Rosane","2":"(63) 3218","3":"2968"},{"0":"Coord. Gest\\u00e3o de Folha de Pagamento e Controle","1":"L\\u00e1zaro Abreu Aires  Sara de Oliveira Rodrigues","2":"(63) 3218","3":"2966"},{"0":"Coord. de Lota\\u00e7\\u00e3o e Movimenta\\u00e7\\u00e3o de Pessoas","1":"L\\u00edvia Daieny Oliveira da Costa","2":"(63) 3218","3":"2967"},{"0":"Coord. Desenvolvimento de Pessoas","1":"Ana Cl\\u00e1udia Fachini Barboza","2":"(63) 3218","3":"2967"},{"0":"Frequ\\u00eancia","1":"Daniel da Silva Pinto","2":"(63) 3218","3":"2985"},{"0":"Coord. de Controle de Benef\\u00edcios","1":"Julianny Valina","2":"(63) 3218","3":"2985"}]}]}'
+[
+    {'Setor': 'REITORIA', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Reitor', 'Contato': 'Augusto Rezende', 'Prefixo': '(63) 3218', 'Ramal': '2939/2940'
+    },
+    {'Setor': 'Vice-Reitora', 'Contato': 'Darlene Castro', 'Prefixo': '(63) 3218', 'Ramal': '2939/2940'
+    },
+    {'Setor': 'Chefia de Gabinete', 'Contato': 'Rafael Verli', 'Prefixo': '(63) 3218', 'Ramal': '2939/2940'
+    },
+    {'Setor': 'Coord. De Órgãos Colegiados Superiores', 'Contato': 'Neila Oliveira', 'Prefixo': '(63) 3218', 'Ramal': '2942'
+    },
+    {'Setor': 'Secretaria da Reitoria', 'Contato': 'Priscila Cardoso\nAna Carolina B. Pedreira', 'Prefixo': '(63) 3218', 'Ramal': '2939/2940'
+    },
+    {'Setor': 'ASSESSORIA DE COMUNICAÇÃO', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Coordenação ASCOM', 'Contato': 'Charlyne Sueste', 'Prefixo': '(63) 3218', 'Ramal': '2265'
+    },
+    {'Setor': 'Equipe de Jornalismo, Fotografia e Criação', 'Contato': '(63) 3218', 'Prefixo': '2947/2265', 'Ramal': None
+    },
+    {'Setor': 'DIRETORIA JURÍDICA', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Diretor Jurídico', 'Contato': 'Naur Vittorazzi', 'Prefixo': '(63) 3218', 'Ramal': '2944'
+    },
+    {'Setor': 'Recepção', 'Contato': '(63) 3218', 'Prefixo': '2945', 'Ramal': None
+    },
+    {'Setor': 'Assessores Jurídicos', 'Contato': '(63) 3218', 'Prefixo': '2978', 'Ramal': None
+    },
+    {'Setor': 'DIRETORIA DE TECNOLOGIA DA INFORMAÇÃO (DTI)', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Diretor DTI', 'Contato': 'Maurício da Silva Pereira', 'Prefixo': '(63) 3218', 'Ramal': '4918'
+    },
+    {'Setor': 'Coord. de Manutenção e Suporte de Sistemas de Informação', 'Contato': 'Rogério Lopes Ferreira', 'Prefixo': '(63) 3218', 'Ramal': '2959'
+    },
+    {'Setor': 'Coord. Redes e Segurança da Informação', 'Contato': 'Carlos Soares Noleto', 'Prefixo': '(63) 3218', 'Ramal': '4933'
+    },
+    {'Setor': 'Coord. De Desenvolvimento e Inovação Tecnológica', 'Contato': 'Yzaac Gonçalves da Silva', 'Prefixo': '(63) 3218', 'Ramal': '4931'
+    },
+    {'Setor': 'NÚCLEO DE INOVAÇÃO TECNOLÓGICA (NIT)', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Direção do NIT', 'Contato': 'SILVANO MALFATTI', 'Prefixo': '(63) 3218', 'Ramal': '2955'
+    },
+    {'Setor': 'Coordenação de Difusão Tecnológica', 'Contato': 'Arthur Prudente Junqueira', 'Prefixo': '(63) 3218', 'Ramal': '2955'
+    },
+    {'Setor': 'Coord. de\xa0Incubadoras e Parcerias', 'Contato': 'Nélio Noleto Ribeiro', 'Prefixo': '(63) 3218', 'Ramal': '2955'
+    },
+    {'Setor': 'DIRETORIA DE DESENVOLVIMENTO E PESQUISA INSTITUCIONAL', 'Contato': 'Arlenes Delabary Spada', 'Prefixo': '(63) 3218', 'Ramal': '4909'
+    },
+    {'Setor': 'DIRETORIA DE PLANEJAMENTO E AÇÕES ESTRATÉGICAS', 'Contato': 'Vinícius Augusto', 'Prefixo': '(63) 3218', 'Ramal': '2996'
+    },
+    {'Setor': 'COORD. DE CONTROLE INTERNO', 'Contato': 'Maísa Gomes da Costa', 'Prefixo': '(63) 3218', 'Ramal': '2961'
+    },
+    {'Setor': 'COORD. DE PUBLICAÇÕES E EDIÇÕES', 'Contato': 'Liliane Scarpin da S. Storniolo', 'Prefixo': '(63) 3218', 'Ramal': '4911'
+    },
+    {'Setor': 'COMISSÃO PRÓPRIA DE AVALIAÇÃO (CPA)', 'Contato': 'Thiago de Lázari', 'Prefixo': '(63) 3218', 'Ramal': '4909'
+    },
+    {'Setor': 'OUVIDORIA GERAL', 'Contato': 'Hosana Melo', 'Prefixo': '(63) 3218', 'Ramal': '2941'
+    },
+    {'Setor': 'PRÓ-REITORIA DE GRADUAÇÃO', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Pró-Reitoria', 'Contato': 'Fred Newton da Silva Souza', 'Prefixo': '(63) 3218', 'Ramal': '4916'
+    },
+    {'Setor': 'Secretaria da Pró-Reitoria', 'Contato': 'Genice Gonçalves Lima', 'Prefixo': '(63) 3218', 'Ramal': '4916/4936'
+    },
+    {'Setor': 'DIRETORA DE ADM. ACADÊMICA', 'Contato': 'Leomara Maurício Lustosa', 'Prefixo': '(63) 3218', 'Ramal': '2972'
+    },
+    {'Setor': 'Coord. Geral de Secretaria Acadêmica', 'Contato': 'Claudemir Fernandes dos Santos', 'Prefixo': '(63) 3218', 'Ramal': '4920'
+    },
+    {'Setor': 'Coord. Geral da Biblioteca', 'Contato': 'Daniela Cursino Obelar', 'Prefixo': '(63) 3218', 'Ramal': '2938'
+    },
+    {'Setor': 'DIRETORIA DE ENSINO', 'Contato': 'Elizabeth Maria Lopes Tolêdo', 'Prefixo': '(63) 3218', 'Ramal': '4002'
+    },
+    {'Setor': 'Coord. de Formação Continuada', 'Contato': 'Luzinete Moreira de Almeida', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'Coord. Acadêmica Geral', 'Contato': 'Caio Monteiro Melo', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'CÂMPUS PALMAS', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Direção', 'Contato': 'Paulo Henrique Ulisses Borges', 'Prefixo': '(63) 3218', 'Ramal': '2984'
+    },
+    {'Setor': 'Assessoria da Direção de Câmpus', 'Contato': 'Taís Bogo', 'Prefixo': '(63) 3218', 'Ramal': '2943'
+    },
+    {'Setor': 'Supervisão Administrativa', 'Contato': 'Murillo Tavares C. de Oliveira', 'Prefixo': '(63) 3218', 'Ramal': '2943'
+    },
+    {'Setor': 'Assessoria Pedagógica', 'Contato': 'Deodete Mª das Neves Schmitt', 'Prefixo': '(63) 3218', 'Ramal': '2263'
+    },
+    {'Setor': 'Supervisão de Secretaria Acadêmica', 'Contato': 'Dalva Ferreira Reis Milhomem', 'Prefixo': '(63) 3218', 'Ramal': '2998'
+    },
+    {'Setor': 'Coordenação - Direito', 'Contato': 'Paulo Beli Moura S. Júnior', 'Prefixo': '(63) 3218', 'Ramal': '2920'
+    },
+    {'Setor': 'Coordenação - Sistemas de Informação', 'Contato': 'Marco Antônio Firmino', 'Prefixo': '(63) 3218', 'Ramal': '4919'
+    },
+    {'Setor': 'Coordenação - Engenharia Agronômica', 'Contato': 'Arison josé Pereira', 'Prefixo': '(63) 3218', 'Ramal': '4926'
+    },
+    {'Setor': 'Coordenação - Serviço Social', 'Contato': 'Giovanni Bezerra do Nascimento', 'Prefixo': '(63) 3218', 'Ramal': '4914'
+    },
+    {'Setor': 'Biblioteca – Campus Palmas', 'Contato': 'Cacilda Martins Madureira', 'Prefixo': '(63) 3218', 'Ramal': '2938'
+    },
+    {'Setor': 'Supervisão de Tecnologia da Informação', 'Contato': 'Marcos Vinícius P. Brito', 'Prefixo': '(63) 3218', 'Ramal': '2979'
+    },
+    {'Setor': 'NAPE (Apoio Psicossocial e Educacional)', 'Contato': 'Ulisses Franklin C. de Cunha', 'Prefixo': '(63) 3218', 'Ramal': '2904'
+    },
+    {'Setor': 'CÂMPUS ARAGUATINS', 'Contato': '(63) 3474', 'Prefixo': '2238', 'Ramal': None
+    },
+    {'Setor': 'CAMPUS AUGUSTINÓPOLIS', 'Contato': '(63) 3456', 'Prefixo': '1811 / 1698', 'Ramal': None
+    },
+    {'Setor': 'CAMPUS DIANÓPOLIS', 'Contato': '(63) 3692', 'Prefixo': '1162 / 2456', 'Ramal': None
+    },
+    {'Setor': 'PRÓ-REITORIA DE PESQUISA E PÓS-GRADUAÇÃO', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Pró-Reitoria', 'Contato': 'Ana Flávia Gouveia de Faria', 'Prefixo': '(63) 3218', 'Ramal': '4929'
+    },
+    {'Setor': 'Secretaria da Pró-Reitoria', 'Contato': 'Talita Ferreira de Freitas', 'Prefixo': '(63) 3218', 'Ramal': '4929'
+    },
+    {'Setor': 'Diretoria de Pesquisa', 'Contato': 'Luciana dos Santos D. Oliveira', 'Prefixo': '(63) 3218', 'Ramal': '2931'
+    },
+    {'Setor': 'Assessoria / Secretaria', 'Contato': 'Adriana de Souza Reis', 'Prefixo': '(63) 3218', 'Ramal': '2932'
+    },
+    {'Setor': 'Coordenação Programa Institucional e Bolsas de Iniciação Científica (PIBIC)', 'Contato': 'Leda Veronica Benevides D. Silva', 'Prefixo': '(63) 3218', 'Ramal': '2983'
+    },
+    {'Setor': 'Comitê de Ética em Pesquisa com Seres Humanos (CEP)', 'Contato': 'Giovanni Bezerra do Nascimento', 'Prefixo': '(63) 3218', 'Ramal': '2929'
+    },
+    {'Setor': 'Comitê de Ética no uso de animais (CEUA)', 'Contato': 'Rubens Honda', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'Núcleo Tocantinense de Arqueologia (NUTA)', 'Contato': 'Antônia Custódia Pedreira', 'Prefixo': '(63) 3363\nPorto Nacional', 'Ramal': '1265'
+    },
+    {'Setor': 'Núcleo de Zoologia e Taxidermia (NZT)', 'Contato': 'Marcus Vinícius Moreira', 'Prefixo': '(63) 3363\nPorto Nacional', 'Ramal': '1505'
+    },
+    {'Setor': 'Núcleo de Desenvolvimento e Avaliação do Desempenho Ambiental (NUDAM)', 'Contato': 'Juliana Mariano Alvez', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'Núcleo Estadual de Meteorologia e Recursos Hídricos (NEMET/RH)', 'Contato': 'José Luiz Cabral S. Júnior', 'Prefixo': '(63) 3218', 'Ramal': '2930'
+    },
+    {'Setor': 'Diretoria de Pesquisa Agropecuária', 'Contato': 'Expedito A. Cardoso', 'Prefixo': '(63) 3218', 'Ramal': '2900'
+    },
+    {'Setor': 'Secretaria CCA', 'Contato': 'Daniel Aranha S. Silva', 'Prefixo': '(63) 3218', 'Ramal': '2900'
+    },
+    {'Setor': 'Coordenação de Pesquisa Agropecuária', 'Contato': 'Eduardo Ribeiro dos Santos', 'Prefixo': '(63) 3218', 'Ramal': '2909'
+    },
+    {'Setor': 'Coordenação de Transferência de Tecnologias e Negócios Tecnológicos', 'Contato': 'Marjory Carvalho Mourão', 'Prefixo': '(63) 3218', 'Ramal': '2903'
+    },
+    {'Setor': 'Coordenação de Estação Experimental - Palmas', 'Contato': 'Anatálio P. Batista', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'Coordenação de Estação Experimental - Formoso do Araguaia', 'Contato': 'Joacy Pires da Costa', 'Prefixo': '(63) 3218', 'Ramal': '--'
+    },
+    {'Setor': 'Diretoria de Pós-Graduação', 'Contato': 'Aline Ferreira de Quadros', 'Prefixo': '(63) 3218', 'Ramal': '4949'
+    },
+    {'Setor': 'Secretaria Acadêmica de Pós-Graduação', 'Contato': 'Ana Flávia Matos', 'Prefixo': '(63) 3218', 'Ramal': '2936'
+    },
+    {'Setor': 'Coordenação de apoio à Pós-Graduação', 'Contato': 'Denise Frasão', 'Prefixo': '(63) 3218', 'Ramal': '4949'
+    },
+    {'Setor': 'PRÓ-REITORIA DE EXTENSÃO', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Pró-Reitoria', 'Contato': 'Kyldes Batista Vicente', 'Prefixo': '(63) 3218', 'Ramal': '4912'
+    },
+    {'Setor': 'DIRETORIA DE EXTENSÃO', 'Contato': 'Alessandra Ruita S. Czapski', 'Prefixo': '(63) 3218', 'Ramal': '2987'
+    },
+    {'Setor': 'Coord. de Assuntos Estudantis e Esportes', 'Contato': 'Ana Márcia Pereira Gurski', 'Prefixo': '(63) 3218', 'Ramal': '2901'
+    },
+    {'Setor': 'Coord. de Programas e Projetos Culturais', 'Contato': 'Marinalva do Rêgo Barros', 'Prefixo': '(63) 3218', 'Ramal': '2910'
+    },
+    {'Setor': 'Coord. e Extensão e Desenv. Social', 'Contato': 'Mylena Costa Jacundá', 'Prefixo': '(63) 3218', 'Ramal': '2987'
+    },
+    {'Setor': 'Núcleo de Estudos em Direitos Humanos', 'Contato': 'Leila Amaral', 'Prefixo': '(63) 3218', 'Ramal': '2901'
+    },
+    {'Setor': 'Câmara de Extensão', 'Contato': 'Mylena Costa Jacundá', 'Prefixo': '(63) 3218', 'Ramal': '2987'
+    },
+    {'Setor': 'Escola de Línguas', 'Contato': 'Mariany Almeida Montino', 'Prefixo': '(63) 3218', 'Ramal': '4921'
+    },
+    {'Setor': 'Apoio e Assessoramento de Extensão', 'Contato': 'Caio Araújo\nMirian Dorneles dos Santos', 'Prefixo': '(63) 3218', 'Ramal': '2935/2937'
+    },
+    {'Setor': 'Curadoria do Museu Tocantinense de Arqueologia (Porto Nacional)', 'Contato': 'Antônia Custódia Pedreira', 'Prefixo': '(63) 3363\nPorto Nacional', 'Ramal': '1265'
+    },
+    {'Setor': 'Curadoria do Museu de Zoologia e Taxidermia José Hidasi (Porto Nacional)', 'Contato': 'Marcus Vinícius Moreira', 'Prefixo': '(63) 3363\nPorto Nacional', 'Ramal': '1505'
+    },
+    {'Setor': 'DIRETORIA DE TV E RÁDIO', 'Contato': 'Carlos Roberto Almeida\n(Kaká Lucena)', 'Prefixo': '(63) 3218', 'Ramal': '4910'
+    },
+    {'Setor': 'Coord. de Equipamentos e Manutenção', 'Contato': 'Múcio Medeiros Barbosa', 'Prefixo': '(63) 3218', 'Ramal': '2954'
+    },
+    {'Setor': 'Coord. de Produção e Jornalismo', 'Contato': 'Rosiane Maria Jerônimo', 'Prefixo': '(63) 3218', 'Ramal': '4932'
+    },
+    {'Setor': 'Coordenadoria de Rádio', 'Contato': 'Carlla Morena Barros P. Kran', 'Prefixo': '(63) 3218', 'Ramal': '4954'
+    },
+    {'Setor': 'Coordenadoria de TV', 'Contato': 'José Augusto do Nascimento', 'Prefixo': '(63) 3218', 'Ramal': '4932'
+    },
+    {'Setor': 'PRÓ-REITORIA DE ADMINISTRAÇÃO E FINANÇAS', 'Contato': None, 'Prefixo': None, 'Ramal': None
+    },
+    {'Setor': 'Pró-Reitoria', 'Contato': 'Daniel Bardal', 'Prefixo': '(63) 3218', 'Ramal': '4939'
+    },
+    {'Setor': 'Secretaria da Pró-Reitoria', 'Contato': 'Carla Marzovilla', 'Prefixo': '(63) 3218', 'Ramal': '4939'
+    },
+    {'Setor': 'DIRETORIA ADMINISTRATIVA', 'Contato': 'Ricardo de Oliveira Carvalho', 'Prefixo': '(63) 3218', 'Ramal': '4938'
+    },
+    {'Setor': 'Coordenação Compras', 'Contato': 'Marcos Rodrigues Carneiro', 'Prefixo': '(63) 3218', 'Ramal': '4930/2981'
+    },
+    {'Setor': 'Coordenação de Gestão de Contratos', 'Contato': 'Pedro Henrique Queiroz Rocha', 'Prefixo': '(63) 3218', 'Ramal': '2989'
+    },
+    {'Setor': 'Coord.Patrimônio e Almoxarifado Central', 'Contato': 'Owederson Ricardo de O. Alves', 'Prefixo': '(63) 3218', 'Ramal': '4904'
+    },
+    {'Setor': 'Coordenação Protocolo e Expedição', 'Contato': 'Ricardo Alves Gouveia', 'Prefixo': '(63) 3218', 'Ramal': '2999 /4924'
+    },
+    {'Setor': 'Coordenação de Licitação', 'Contato': 'Alan Wortmann', 'Prefixo': '(63) 3218', 'Ramal': '2995'
+    },
+    {'Setor': 'Coord. Manutenção e Serviços e Transporte', 'Contato': 'Francisco da Silva Monteiro', 'Prefixo': '(63) 3218', 'Ramal': '2990'
+    },
+    {'Setor': 'Agendamento Auditório e Sala de reuniões', 'Contato': 'Carla Marzovilla', 'Prefixo': '(63) 3218', 'Ramal': '4939'
+    },
+    {'Setor': 'Copa (Sede Adm)', 'Contato': '--', 'Prefixo': '(63) 3218', 'Ramal': '2912'
+    },
+    {'Setor': 'Portaria (Sede Adm)', 'Contato': '--', 'Prefixo': '(63) 3218', 'Ramal': '2992'
+    },
+    {'Setor': 'DIRETORIA FINANCEIRA', 'Contato': 'Fabiano Cottiga Magro', 'Prefixo': '(63) 3218', 'Ramal': '2962'
+    },
+    {'Setor': 'Coordenação de Gestão de Convênios', 'Contato': 'Luiz Gonzaga Pires Santana', 'Prefixo': '(63) 3218', 'Ramal': '4925'
+    },
+    {'Setor': 'Coordenação de Contábil', 'Contato': 'Germano Oliveira Vieira', 'Prefixo': '(63) 3218', 'Ramal': '2964'
+    },
+    {'Setor': 'Coordenação de Execução Financeira', 'Contato': 'Jakeline Pereira da Silva', 'Prefixo': '(63) 3218', 'Ramal': '4903'
+    },
+    {'Setor': 'DIRETORIA DE GESTÃO E DESENVOLVIMENTO DE PESSOAS', 'Contato': 'Mª Lúcia Guida', 'Prefixo': '(63) 3218', 'Ramal': '2965'
+    },
+    {'Setor': 'Arquivo DGDP', 'Contato': 'Josê Rosane', 'Prefixo': '(63) 3218', 'Ramal': '2968'
+    },
+    {'Setor': 'Coord. Gestão de Folha de Pagamento e Controle', 'Contato': 'Lázaro Abreu Aires\nSara de Oliveira Rodrigues', 'Prefixo': '(63) 3218', 'Ramal': '2966'
+    },
+    {'Setor': 'Coord. de Lotação e Movimentação de Pessoas', 'Contato': 'Lívia Daieny Oliveira da Costa', 'Prefixo': '(63) 3218', 'Ramal': '2967'
+    },
+    {'Setor': 'Coord. Desenvolvimento de Pessoas', 'Contato': 'Ana Cláudia Fachini Barboza', 'Prefixo': '(63) 3218', 'Ramal': '2967'
+    },
+    {'Setor': 'Frequência', 'Contato': 'Daniel da Silva Pinto', 'Prefixo': '(63) 3218', 'Ramal': '2985'
+    },
+    {'Setor': 'Coord. de Controle de Benefícios', 'Contato': 'Julianny Valina', 'Prefixo': '(63) 3218', 'Ramal': '2985'
+    }
+]
