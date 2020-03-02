@@ -7,7 +7,7 @@ import unidecode
 import lxml.html as html
 import pandas as pd
 import random
-from util.util import match_value, scraping_table_as_dataframe
+from util.util import match_value, scraping_table_as_dataframe, contato_format_msg
 
 ## https://developer.amazon.com/en-US/docs/alexa/alexa-design/adaptable.html
 
@@ -20,8 +20,14 @@ def get_news():
 def get_telefone(contato):
     fone = "3 2 1 8 29 49"
     url = "https://www.unitins.br/nportal/portal/page/show/contatos-da-unitins"
+    
+    contatos = scraping_table_as_dataframe(url)
 
-    return fone
+    eleito = match_value(contatos, contato)
+
+    msg = contato_format_msg(eleito)
+    
+    return msg
 
 @app.route("/")
 def homepage():
@@ -71,7 +77,7 @@ def contatos(contato):
     fone = get_telefone(contato)
     print(fone)
 
-    return statement("O telefone solicitado: {},  é: {}".format(contato, fone))
+    return statement(fone)
 
 @ask.intent('AMAZON.StopIntent')
 def stop():

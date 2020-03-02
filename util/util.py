@@ -26,26 +26,21 @@ def extract_values(obj, key):
 
 
 def match_value(valores, contato):
-    arr = []
-    # quem = []
-    # eleito = ""
-    # quem.append(process.extractBests(valores.Contato.to_list(), contato))
-    # print(quem)
-    # quem.append(process.extractBests(valores.Setor.to_list(), contato))
-    # print()
-    # eleito = process.extractOne(quem, contato)
-    
-    for i, valor in enumerate(valores):
-        if valor is not None:
-            if fuzz.ratio(valor, contato) > 50:
-                arr.append(i)
-                print("Ratio: O valor buscado: {} em {} na posição {}.".format(contato, valor,  i))
-            else:
-                if fuzz.token_sort_ratio(valor, contato) > 60:
-                    arr.append(i)
-                    print("Token: O valor buscado: {} em {} na posição {}.".format(contato, valor,  i))
-    
-    return arr
+    quem = []
+    eleito = []
+    quem.append(process.extractOne(contato, valores.Contato.to_list()))
+    quem.append(process.extractOne(contato, valores.Setor.to_list()))
+    eleito = process.extractOne(contato, quem)
+    eleito = eleito[0][0]
+
+    rowContato = valores.loc[valores.Contato == eleito]
+    rowSetor = valores.loc[valores.Setor == eleito]
+    if len(rowContato):
+        return rowContato
+    else:
+        return rowSetor
+
+    return []
 
 def scraping_table_as_dataframe(url):
     html = urlopen(url)
@@ -83,3 +78,30 @@ def scraping_table_as_dataframe(url):
     ## exclui o setor principal sem responsável e telefone.
     df = df.loc[~filtro_nonono]
     return df
+
+def contato_format_msg(contato):
+    text = ""
+    quem = ""
+    onde = ""
+    prefixo = ""
+    ramal = ""
+    print(contato)
+    if len(contato.Contato.to_list()[0]) > 2:
+        quem = contato.Contato.to_list()[0]
+    if len(contato.Setor.to_list()[0]) > 2:
+        onde = contato.Setor.to_list()[0]
+    if len(contato.Prefixo.to_list()[0]) > 2:
+        prefixo = contato.Prefixo.to_list()[0].split(" ")
+        prefixo = prefixo[1]
+        prefixo = list(prefixo)
+        tmp = " ".join(prefixo)
+        prefixo = tmp
+    if len(contato.Ramal.to_list()[0]) > 2:
+        ramal = contato.Ramal.to_list()[0].split("/")
+        ramal = ramal[0]
+        ramal = ramal[:2] + " " + ramal[2:]
+    if len(quem) < 2:
+        text = "Para falar com {}, ligue para {} {}".format(onde, prefixo, ramal)
+    else:
+        text = "Para falar com {}, ligue para {} {}".format(quem, prefixo, ramal)
+    return text
