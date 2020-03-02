@@ -63,7 +63,7 @@ def say_age(age):
 
 @ask.intent("iProtocoloIntent")
 def iprotocolo():
-    return question("Ummmm.. vamos lá então. Qual é sua solicitação?")
+    return question("Ummmm.. vamos lá então. Me diga seu R.A. e qual é sua solicitação?")
 
 @ask.intent("ContatosIntent", convert={'contato': str})
 def contatos(contato):

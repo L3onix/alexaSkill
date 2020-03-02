@@ -86,22 +86,29 @@ def contato_format_msg(contato):
     prefixo = ""
     ramal = ""
     print(contato)
-    if len(contato.Contato.to_list()[0]) > 2:
+    if contato.Contato.to_list()[0] != None:
         quem = contato.Contato.to_list()[0]
-    if len(contato.Setor.to_list()[0]) > 2:
+    if len(contato.Setor.to_list()[0]) != None:
         onde = contato.Setor.to_list()[0]
-    if len(contato.Prefixo.to_list()[0]) > 2:
+    if len(contato.Prefixo.to_list()[0]) != None:
         prefixo = contato.Prefixo.to_list()[0].split(" ")
         prefixo = prefixo[1]
         prefixo = list(prefixo)
         tmp = " ".join(prefixo)
         prefixo = tmp
-    if len(contato.Ramal.to_list()[0]) > 2:
+    if len(contato.Ramal.to_list()[0]) != None:
         ramal = contato.Ramal.to_list()[0].split("/")
         ramal = ramal[0]
-        ramal = ramal[:2] + " " + ramal[2:]
-    if len(quem) < 2:
-        text = "Para falar com {}, ligue para {} {}".format(onde, prefixo, ramal)
+        if(len(ramal) > 3):
+            ramal = ramal[:2] + " " + ramal[2:]
+        else:
+            ramal = ""
+    
+    if len(ramal) > 1:
+        if len(quem) < 2:
+            text = "Para falar com {}, ligue para {} {}".format(onde, prefixo, ramal)
+        else:
+            text = "Para falar com {}, ligue para {} {}".format(quem, prefixo, ramal)
     else:
-        text = "Para falar com {}, ligue para {} {}".format(quem, prefixo, ramal)
+        text = "Infelizmente não tenho o telefone solicitado."
     return text
