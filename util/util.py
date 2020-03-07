@@ -34,7 +34,7 @@ def match_value(valores, contato):
     eleito = eleito[0][0]
 
     # TODO #1 Tratar quando ocorrem mais de um eleito. Busque por 'Antônia Custódia Pedreira'
-
+    # Antonio
     rowContato = valores.loc[valores.Contato == eleito]
     rowSetor = valores.loc[valores.Setor == eleito]
 
@@ -81,11 +81,11 @@ def scraping_table_as_dataframe(url):
     ## exclui o setor principal sem responsável e telefone.
     df = df.loc[~filtro_nonono]
 
-    #TODO #2 Tratar o prefixo que conta nome de cidade
+    #TODO #2 Tratar o prefixo que conta nome de cidade #Patrícia
 
-    #TODO #3 Tratar o nome do contato para narrar apenas dois dois primeiros nomes
+    #TODO #3 Tratar o nome do contato para narrar apenas dois dois primeiros nomes #Nilvan
 
-    #TODO #4 Tratar os campos com mais de uma pessoa para narrar o nome das duas pessoas concatenados por 'e'
+    #TODO #4 Tratar os campos com mais de uma pessoa para narrar o nome das duas pessoas concatenados por 'e' #Patrick
 
     return df
 
@@ -107,7 +107,7 @@ def contato_format_msg(contato):
         tmp = " ".join(prefixo)
         prefixo = tmp
     if len(contato.Ramal.to_list()[0]) != None:
-        # TODO #5 verificar a formatação da mensagem para narar os dois ramais, quando for o caso.
+        # TODO #5 verificar a formatação da mensagem para narar os dois ramais, quando for o caso. # Rafael
         ramal = contato.Ramal.to_list()[0].split("/")
         ramal = ramal[0]
         if(len(ramal) > 3):
@@ -115,7 +115,7 @@ def contato_format_msg(contato):
         else:
             ramal = ""
     
-    # TODO #6 Alterar para narrar também o setor
+    # TODO #6 Alterar para narrar também o setor #Thalyson
     if len(ramal) > 1:
         if len(quem) < 2:
             text = "Para falar com {}, ligue para {} {}".format(onde, prefixo, ramal)

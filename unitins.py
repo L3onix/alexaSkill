@@ -21,7 +21,7 @@ def get_telefone(contato):
     url = "https://www.unitins.br/nportal/portal/page/show/contatos-da-unitins"
     
     contatos = scraping_table_as_dataframe(url)
-
+    #TODO #10 Buscar fone por cruzamento de nome e setor #Leonardo.
     eleito = match_value(contatos, contato)
 
     msg = contato_format_msg(eleito)
@@ -74,7 +74,7 @@ def contatos(contato):
         return question("Devo procurar o telefone de quem ou de onde mesmo?")
     
     fone = get_telefone(contato)
-    # TODO #7 Solicitar a confirmação do contato
+    # TODO #7 Solicitar a confirmação do contato #Samuel
     print(fone)
 
     return statement(fone)
@@ -82,7 +82,12 @@ def contatos(contato):
 
 @ask.intent("checaRamalIntent", convert={'ramal': str})
 def verifica_ramal(ramal):
-    # TODO #8 buscar um contato ou setor a partir de um ramal.
+    # TODO #8 buscar um contato ou setor a partir de um ramal. #Carlessandro
+    pass
+
+@ask.intent("contatoPorFuncaoIntent", convert={'contato': str})
+def busca_contato_por_funcao(contato):
+    # TODO #9 buscar um contato a partir do cargo ou função. #Julieta
     pass
 
 @ask.intent('AMAZON.StopIntent')
