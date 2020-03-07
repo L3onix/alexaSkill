@@ -33,8 +33,11 @@ def match_value(valores, contato):
     eleito = process.extractOne(contato, quem)
     eleito = eleito[0][0]
 
+    # TODO Tratar quando ocorrem mais de um eleito. Busque por 'Antônia Custódia Pedreira'
+
     rowContato = valores.loc[valores.Contato == eleito]
     rowSetor = valores.loc[valores.Setor == eleito]
+
     if len(rowContato):
         return rowContato
     else:
@@ -77,6 +80,13 @@ def scraping_table_as_dataframe(url):
 
     ## exclui o setor principal sem responsável e telefone.
     df = df.loc[~filtro_nonono]
+
+    #TODO Tratar o prefixo que conta nome de cidade
+
+    #TODO Tratar o nome do contato para narrar apenas dois dois primeiros nomes
+
+    #TODO Tratar os campos com mais de uma pessoa para narrar o nome das duas pessoas concatenados por 'e'
+
     return df
 
 def contato_format_msg(contato):
@@ -97,6 +107,7 @@ def contato_format_msg(contato):
         tmp = " ".join(prefixo)
         prefixo = tmp
     if len(contato.Ramal.to_list()[0]) != None:
+        # TODO verificar a formatação da mensagem para narar os dois ramais, quando for o caso.
         ramal = contato.Ramal.to_list()[0].split("/")
         ramal = ramal[0]
         if(len(ramal) > 3):
@@ -104,6 +115,7 @@ def contato_format_msg(contato):
         else:
             ramal = ""
     
+    # TODO Alterar para narrar também o setor
     if len(ramal) > 1:
         if len(quem) < 2:
             text = "Para falar com {}, ligue para {} {}".format(onde, prefixo, ramal)

@@ -18,7 +18,6 @@ def get_news():
     pass
 
 def get_telefone(contato):
-    fone = "3 2 1 8 29 49"
     url = "https://www.unitins.br/nportal/portal/page/show/contatos-da-unitins"
     
     contatos = scraping_table_as_dataframe(url)
@@ -75,6 +74,7 @@ def contatos(contato):
         return question("Devo procurar o telefone de quem ou de onde mesmo?")
     
     fone = get_telefone(contato)
+    # TODO Solicitar a confirmação do contato
     print(fone)
 
     return statement(fone)
