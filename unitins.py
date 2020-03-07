@@ -74,10 +74,16 @@ def contatos(contato):
         return question("Devo procurar o telefone de quem ou de onde mesmo?")
     
     fone = get_telefone(contato)
-    # TODO Solicitar a confirmação do contato
+    # TODO #7 Solicitar a confirmação do contato
     print(fone)
 
     return statement(fone)
+
+
+@ask.intent("checaRamalIntent", convert={'ramal': str})
+def verifica_ramal(ramal):
+    # TODO #8 buscar um contato ou setor a partir de um ramal.
+    pass
 
 @ask.intent('AMAZON.StopIntent')
 def stop():
