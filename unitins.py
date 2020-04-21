@@ -7,7 +7,7 @@ import unidecode
 import lxml.html as html
 import pandas as pd
 import random
-from util.util import match_value, scraping_table_as_dataframe, contato_format_msg
+from util.util import match_value, scraping_table_as_dataframe, contato_format_msg, filter_sectors_before_names
 
 ## https://developer.amazon.com/en-US/docs/alexa/alexa-design/adaptable.html
 
@@ -22,6 +22,13 @@ def get_telefone(contato):
     
     contatos = scraping_table_as_dataframe(url)
     #TODO #10 Buscar fone por cruzamento de nome e setor #Leonardo.
+    checar_setor = filter_sectors_before_names(contato, contatos)
+    # se algum setor for identificado, os contatos são limitados a somente o setor que foi identificado
+    # e o contato é limitado somente à primeira palavra
+    if checar_setor.size > 0:
+        contatos = checar_setor
+        contato = contato.split(' ', 1)[0]
+
     eleito = match_value(contatos, contato)
 
     msg = contato_format_msg(eleito)

@@ -124,3 +124,23 @@ def contato_format_msg(contato):
     else:
         text = "Infelizmente não tenho o telefone solicitado."
     return text
+
+def filter_sectors_before_names(contato, contatos):
+  new_contatos = pd.DataFrame(columns=['Setor', 'Contato', 'Prefixo', 'Ramal'])
+  
+  # se tiver a palavra 'coordenação' ele substitui por 'coord.'
+  if 'coordenação' in contato:
+    contato = contato.split('coordenação')[0] + 'coord.' + contato.split('coordenação')[1]
+  
+  composto = contato.split(' ', 1)[1] #capturando o composto
+  if ' ' in composto: # se o composto tiver mais de uma palavra
+    if len(composto.split(' ', 1)[0]) < 4: # se a primeira palavra de composto for menor que 4
+      composto = composto.split(' ', 1)[1]
+
+  setores = process.extract(composto, contatos.Setor.to_list())
+  
+  for setor in setores:
+    if setor[1] > 89:
+      new_contatos = new_contatos.append(contatos[contatos['Setor'] == setor[0]], ignore_index=True)
+  
+  return new_contatos
